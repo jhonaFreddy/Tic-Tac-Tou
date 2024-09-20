@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script defer src="./js/main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Tic Tac Tou</title>
+</head>
+<body class="vh-100">
+          <div class="container d-grid ">
+            <div class="barra_top">
+                <div class="x_jugador">x</div>
+                <div class="o_jugador">o</div>
+            </div>
+            <div class="barra_top mid">
+                <div class="turno d-flex align-items-center justify-content-center">
+                    <div class="jugador"></div> TURN</div>
+            </div>
+            <div class="barra_top ret">
+                <img src="./images/reload-arrow-svgrepo-com.svg" alt="">
+            </div>
+            <div class="caja"></div> 
+            <div class="caja"></div>
+            <div class="caja"></div>
+            <div class="caja"></div>
+            <div class="caja"></div>
+            <div class="caja"></div>
+            <div class="caja"></div>
+            <div class="caja"></div>
+            <div class="caja"></div>
+            <div class="barra you">X(YOU)</div>
+            <div class="barra ties">TIES</div>
+            <div class="barra cpu">O(CPU)</div>
+        </div>
+        <div class="aviso hidden">
+            <div class="content w-100">
+                <div class="won">You won!</div>
+                <div class="ganador">Takes the round</div>
+                <div>
+                    <button class="quit boton_modal">QUIT</button>
+                    <button class="nextRound boton_modal">NEXT ROUND</button>
+                </div>
+            </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
